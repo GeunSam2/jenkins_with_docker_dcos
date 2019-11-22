@@ -16,7 +16,10 @@
 * Run with docker
 
 ```
-docker run -d -p <host-port>:8080 -v /path/for/data:/var/jenkins_home -v /path/for/docker:/var/lib/docker <image-you-builded>
+docker run -d -p <host-port>:8080 \
+-v /path/for/data:/var/jenkins_home \
+-v /path/for/docker:/var/lib/docker \
+<image-you-builded>
 ```
 
 * Run with marathon / DCOS
