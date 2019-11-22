@@ -3,7 +3,7 @@
 * Base_Image : jenkins/jenkins:2.190.3-centos
 * Jenkins_version : 2.190.2
 * DCOS_CLI : 1.13.5
-* Docker : version for latest ([overview](https://docs.docker.com/install/linux/docker-ce/centos/))
+* Docker : 1.13.1
 
 > What is Different
 * User : jenkins -> root
